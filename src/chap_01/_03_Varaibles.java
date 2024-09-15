@@ -16,9 +16,12 @@ public class _03_Varaibles {
         boolean pass = true;
         System.out.println("이번 시험에 합격했을까요 ? " + pass);
 
-        double d = 3.14;
-        float f = 3.14f; //정밀한 값만 가능함
+        double d = 3.143445034;
+        float f = 3.1423423424f; //정밀한 값은 안됨
         System.out.println(d);
         System.out.println(f);
+
+        long l = 1000000000000L;
+        System.out.println(l);// int의 범위를 벗어남 따라서 long 써야함
     }
 }
